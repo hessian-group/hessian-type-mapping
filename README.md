@@ -1,6 +1,6 @@
-# hessian cross language type mapping 
+# hessian cross languages type mapping 
 
-cross language message definition should be careful, the following situations should be avoid:
+Cross languages message definition should be careful, the following situations should be avoid:
 - define object that only exists in a special language
 	- not using various java exceptions, using error code/message instead.
 	- not using packaging type Integer,Long,Boolean in java, using raw type instead.
@@ -21,7 +21,7 @@ So we maintain a cross language type mapping:
 | **list** | java.util.List | slice |
 | **map** | java.util.Map | map |
 | **object** | custom define object | custom define struct|
-| **THE FOLLOWING IS OTHER COMMON USING DATA TYPE** | 
+| **OTHER COMMON USING TYPE** | 
 | **big decimal** | java.math.BigDecimal | github.com/dubbogo/gost/math/big/Decimal
 
 
