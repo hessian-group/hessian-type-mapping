@@ -1,9 +1,9 @@
 # hessian cross languages type mapping 
 
-Cross languages message definition should be careful, the following situations should be avoid:
+Cross languages message definition should be careful, the following situations should be avoided:
 - define object that only exists in a special language
-	- not using various java exceptions, using error code/message instead.
-	- not using packaging type Integer,Long,Boolean in java, using raw type instead.
+	- using various java exceptions (using error code/message instead)
+	- using packaging type Integer,Long,Boolean in java (using raw type instead)
 
 
 So we maintain a cross language type mapping:
