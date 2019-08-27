@@ -3,7 +3,6 @@
 Cross languages message definition should be careful, the following situations should be avoided:
 - define object that only exists in a special language
 	- using various java exceptions (using error code/message instead)
-	- using packaging type Integer,Long,Boolean in java (using raw type instead)
 
 
 So we maintain a cross language type mapping:
@@ -21,9 +20,12 @@ So we maintain a cross language type mapping:
 | **list** | java.util.List | slice |
 | **map** | java.util.Map | map |
 | **object** | custom define object | custom define struct|
-| **OTHER COMMON USING TYPE** | 
-| **big decimal** | java.math.BigDecimal | github.com/dubbogo/gost/math/big/Decimal
-
+| **OTHER COMMON USING TYPE** | | | 
+| **big decimal** | java.math.BigDecimal | github.com/dubbogo/gost/math/big/Decimal |
+| **Boolean** | Boolean | \*bool |
+| **Integer** | Integer | \*int |
+| **Long** | Long | \*long |
+| **Double** | Double | \*float64 |
 
 ## reference
 
