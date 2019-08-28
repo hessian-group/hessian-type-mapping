@@ -22,10 +22,10 @@ So we maintain a cross language type mapping:
 | **object** | custom define object | custom define struct|
 | **OTHER COMMON USING TYPE** | | | 
 | **big decimal** | java.math.BigDecimal | github.com/dubbogo/gost/math/big/Decimal |
-| **Boolean** | Boolean | \*bool |
-| **Integer** | Integer | \*int |
-| **Long** | Long | \*long |
-| **Double** | Double | \*float64 |
+| **Boolean** | Boolean | \*bool (TODO) |
+| **Integer** | Integer | \*int (TODO)|
+| **Long** | Long | \*long (TODO)|
+| **Double** | Double | \*float64 (TODO) |
 
 ## reference
 
