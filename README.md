@@ -24,7 +24,7 @@ So we maintain a cross language type mapping:
 | **big decimal** | java.math.BigDecimal | github.com/dubbogo/gost/math/big/Decimal |
 | **Boolean** | Boolean | \*bool (TODO) |
 | **Integer** | Integer | \*int (TODO)|
-| **Long** | Long | \*long (TODO)|
+| **Long** | Long | \*int64 (TODO)|
 | **Double** | Double | \*float64 (TODO) |
 
 ## reference
