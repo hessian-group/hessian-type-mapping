@@ -14,14 +14,15 @@ So we maintain a cross language type mapping:
 | **boolean** | boolean | bool |
 | **date** | java.util.Date | time.Time |
 | **double** | double | float64 |
-| **int** | int | int |
-| **long** | long | long |
+| **int** | int | int64 |
+| **long** | long | int64 |
 | **string** | java.lang.String | string |
 | **list** | java.util.List | slice |
 | **map** | java.util.Map | map |
 | **object** | custom define object | custom define struct|
 | **OTHER COMMON USING TYPE** | | | 
 | **big decimal** | java.math.BigDecimal | github.com/dubbogo/gost/math/big/Decimal |
+| **big integer** | java.math.BigInteger | github.com/dubbogo/gost/math/big/Integer |
 | **Boolean** | Boolean | \*bool (TODO) |
 | **Integer** | Integer | \*int (TODO)|
 | **Long** | Long | \*int64 (TODO)|
